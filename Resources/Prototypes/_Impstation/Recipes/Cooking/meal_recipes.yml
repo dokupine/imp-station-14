@@ -767,7 +767,7 @@
     FoodChiliPepper: 1
   recipeType: Assembler
 
-- type: MicrowaveMealRecipe
+- type: microwaveMealRecipe
   id: RecipeBanhMi
   name: banh mi recipe
   result: FoodBanhMi
