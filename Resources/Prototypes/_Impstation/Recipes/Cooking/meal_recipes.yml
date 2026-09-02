@@ -758,8 +758,7 @@
   group: Savory
   time: 10
   reagents:
-    Salt: 5
-    Sugar: 5
+    TableSalt: 5
     Enzyme: 5
   solids:
     FoodMeatBacon: 3
@@ -777,7 +776,7 @@
     Mayo: 5
   solids:
     FoodMeatBacon: 2
-    FoodBreadSliceBase: 2
+    FoodBreadPlainSlice: 2
     FoodCarrot: 1
     FoodChiliPepper: 1
   recipeType: Assembler
