@@ -109,7 +109,8 @@
     flavors:
     - meaty
   - type: Sprite
-    sprite: # TODO
+    sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
+    state: nemchua
   - type: SolutionContainerManager
     solutions:
       food:
@@ -127,7 +128,8 @@
     flavors:
     - meaty
   - type: Sprite
-    sprite: # TODO
+    sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
+    state: banhmi
   - type: SolutionContainerManager
     solutions:
       food:
