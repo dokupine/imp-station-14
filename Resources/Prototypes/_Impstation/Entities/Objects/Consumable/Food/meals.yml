@@ -93,6 +93,51 @@
     - ClothMade
     - ClothFood
     
+# VIETNAM NUMBA ONE
+
+- type: entity
+  name: nem chua
+  parent: FoodMealBase
+  id: FoodNemChua
+  description: A fermented raw pork dish from Space Vietnam.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+    - Meat
+    type: FlavorProfile
+    flavors:
+    - meaty
+  - type: Sprite
+    sprite: # TODO
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 25
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 20
+
+- type: entity
+  name: banh mi
+  id: FoodBanhMi
+  description: Soon your crew will be serving sandwiches named after me, Vietnamese style, fool!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - meaty
+  - type: Sprite
+    sprite: # TODO
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 25
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Protein
+          Quantity: 10
+
 
 # pompom foods
 

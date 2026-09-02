@@ -749,3 +749,35 @@
   solids:
     FoodCakeBatterCotton: 1
   recipeType: Oven
+
+- type: microwaveMealRecipe # VIETNAM NUMBA ONE
+  id: RecipeNemChua
+  name: nem chua recipe
+  result: FoodNemChua
+  resultCount: 3
+  group: Savory
+  time: 10
+  reagents:
+    Salt: 5
+    Sugar: 5
+    Enzyme: 5
+  solids:
+    FoodMeatBacon: 3
+    FoodGarlic: 1
+    FoodChiliPepper: 1
+  recipeType: Assembler
+
+- type: MicrowaveMealRecipe
+  id: RecipeBanhMi
+  name: banh mi recipe
+  result: FoodBanhMi
+  group: Savory
+  time: 10
+  reagents:
+    Mayo: 5
+  solids:
+    FoodMeatBacon: 2
+    FoodBreadSliceBase: 2
+    FoodCarrot: 1
+    FoodChiliPepper: 1
+  recipeType: Assembler
