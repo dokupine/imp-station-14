@@ -131,6 +131,7 @@
 - type: entity
   name: banh mi
   id: FoodBanhMi
+  parent: FoodMealBase
   description: Soon your crew will be serving sandwiches named after me, Vietnamese style, fool!
   components:
   - type: FlavorProfile
